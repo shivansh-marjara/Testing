@@ -1,0 +1,78 @@
+body {
+    background-color:beige;
+}
+#heading{
+    text-align:center;
+    background-color:black;
+    padding:20px;
+    margin-top:-5px;
+    color:whitesmoke;
+    font-family:"Papyrus",Fantasy;
+}
+.index-list{
+    list-style-type:none;
+    margin:auto;
+    background-color:whitesmoke;
+    width:200px;
+    height:225px;
+    padding:0px;
+}
+.index-list li{
+    margin-top:10px;
+    margin-bottom:10px;
+    font-size:20px;
+     text-align:center;
+     padding:20px;
+    border-style: groove;
+}
+a{
+     box-shadow: inset 0 0 0 0 violet;
+    text-decoration:none;
+     transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
+}
+a:hover{
+    color:white;
+   box-shadow: inset 160px 0 0 0 violet;
+   font-weight: bold;
+}
+#home{
+ display: block;
+ margin-bottom: 20px;
+ font-size: 30px;
+}
+.content{
+    display:flexbox;
+     flex: 1;
+       padding: 20px;
+}
+.container {
+    display: flex;
+    height: 100vh; /* Full viewport height */
+    width: 100%;
+    
+}
+.container img {
+    flex: 1; /* Takes up 50% of the screen */
+    width: 400px;
+    height: auto;
+    object-fit: cover; /* Ensure image covers the space without distortion */
+}
+h2, h3 {
+    color: #333;
+    background-color: thistle;
+    padding:10px;
+}
+
+ul, ol {
+    padding-left: 20px;
+}
+
+/* Optional: Add some basic styling to the links and paragraphs */
+p {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+ul li, ol li {
+    font-size: 16px;
+}
